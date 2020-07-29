@@ -8,8 +8,6 @@
     "lint": "eslint 'src/**/*.js'",
     "test:full": "npm run test && npm run lint",
     "postversion": "git push && git push --tags",
-    "preversion": "npm run test:full",
-    "prepack": "npm run test:full"
   },
   "repository": "megahertz/electron-simple-publisher",
   "files": [
