@@ -55,6 +55,18 @@ const ASSETS_DATA = {
       '{name}-{version}-armv7l.AppImage',
     ],
   },
+  'linux-arm64': {
+    install: [
+      '{productName}-{version}-arm64.AppImage',
+      '{productName} {version} arm64.AppImage',
+      '{name}-{version}-arm64.AppImage',
+    ],
+    metaFile: null,
+    update: [
+      '{productName} {version}-arm64.AppImage',
+      '{name}-{version}-arm64.AppImage',
+    ],
+  },
   'win32-ia32': {
     install: [
       path.join('squirrel-windows-ia32', '{productName} Setup {version}.exe'),
