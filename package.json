@@ -1,15 +1,15 @@
 {
   "name": "electron-simple-publisher",
-  "version": "2.0.0",
+  "version": "2.0.3",
   "description": "Simple way to publish releases for electron-simple-updater",
   "main": "src/index.js",
   "scripts": {
     "test": "humile",
     "lint": "eslint 'src/**/*.js'",
     "test:full": "npm run test && npm run lint",
-    "postversion": "git push && git push --tags",
+    "postversion": "git push && git push --tags"
   },
-  "repository": "megahertz/electron-simple-publisher",
+  "repository": "atipezda/electron-simple-publisher",
   "files": [
     "src/*",
     "!__specs__"
